@@ -5,18 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>position 실습 문제</title>
   <style>
+    /* *{margin: 0; padding: 0;} */
     #contents{
       width: 700px;
       height: 500px;
       margin: 0 auto;
       background: url(images/bg.jpg) no-repeat;
       background-size: cover;
-      position: relative;
+      /* 이미지가 기준이 됨 */
+      position: relative; 
     }
     h1{
-      margin: 0;
+      margin: 0;  /* h1 태그의 마진을 0px로 초기화함 */
       font-size: 100px;
-      color: white;
+      color: rgb(237, 237, 237);
+      /* 원하는 위치로 배치 */
       position: absolute;
       bottom: 130px;
       right: 70px;
