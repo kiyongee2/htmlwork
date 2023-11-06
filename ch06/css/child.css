@@ -11,21 +11,21 @@
 }
 /* 모든 자식요소중  첫번째 자식 요소*/
 .contents :first-child{ /* nth-child(1) */
-  color: blue;
+  color: red;
 }
 /* 모든 자식요소중  n번째 자식 요소*/
 /* n=0 대입 */
-.contents :nth-child(2n){
-  background-color: yellow;
+.contents :nth-child(2n){ /* 2, 4, 6, 8 */
+  background-color: #0f0;
 }
 /* .contents :last-child{
   background-color: greenyellow;
 } */
 /* p:nth-of-type(): p 태그중에서 2번째 선택*/
 .contents p:nth-of-type(2){
-  color: red;
+  color: blue;
 }
 /* "본문 내용2"를 녹색으로 스타일하기 */
 .contents h2:nth-of-type(2){
-  color: green;
+  font-style: italic;
 }
