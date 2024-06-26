@@ -2,8 +2,8 @@
 (function(){
   const spanEl = document.querySelector('main h2 span');
   //console.log(spanEl);
-  const textArr = ['Web Publisher', 'Front-End Developer', 'Web UI Designer',
-            'Web Full Stack Developer'];
+  const textArr = ['Web Front-End Developer', 'Software Engineer',
+            'Web Back-End Developer'];
   //console.log(textArr[0]);
 
   let index = 0;
